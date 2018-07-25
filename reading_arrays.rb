@@ -33,6 +33,11 @@ def last_student_by_method
 end
 
 def first_second_and_third_students
-  STUDENT_NAMES[0,1,2]
+  x = 0 
+  until x == 3
+  one_two_three [3]
+  one_two_three[x]=STUDENT_NAMES[x]
+  x+=1
+end
   # Write a solution that returns the first, second and third students
 end
