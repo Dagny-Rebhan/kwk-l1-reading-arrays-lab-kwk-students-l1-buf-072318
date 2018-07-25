@@ -32,10 +32,12 @@ def last_student_by_method
   # Write a solution that returns the first student using the built in .last method
 end
 
-one_two_three [3]
+
 def first_second_and_third_students
   x = 0 
+ one_two_three [3] 
   until x == 3
+  
   one_two_three[x]=STUDENT_NAMES[x]
   x+=1
 end
