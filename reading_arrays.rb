@@ -40,6 +40,7 @@ def first_second_and_third_students
       one_two_three.push(STUDENT_NAMES[x])
       x+=1
     end
+    one_two_three
   # Write a solution that returns the first, second and third students
 end
 
