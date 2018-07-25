@@ -42,3 +42,6 @@ def first_second_and_third_students
     end
   # Write a solution that returns the first, second and third students
 end
+
+
+puts first_second_and_third_students
