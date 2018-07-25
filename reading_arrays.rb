@@ -35,9 +35,9 @@ end
 
 def first_second_and_third_students
   x = 0 
-  one_two_three = [3] 
+  one_two_three = [] 
     while x < 3
-      one_two_three[x] = STUDENT_NAMES[x]
+      one_two_three.push(STUDENT_NAMES[x])
       x+=1
     end
   # Write a solution that returns the first, second and third students
